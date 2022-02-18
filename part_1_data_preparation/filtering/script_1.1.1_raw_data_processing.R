@@ -1,5 +1,5 @@
 ################################################################################
-### Name:        script_1.1_raw_data_processing.R
+### Name:        script_1.1.1_raw_data_processing.R
 ### Description: Imports raw data and merges into an expression count dataframe
 ###              and metadata metaframe
 ### Author:      Clemens Pieter Dick Hendrickx
