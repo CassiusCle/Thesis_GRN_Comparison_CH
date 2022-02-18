@@ -1,5 +1,5 @@
 ################################################################################
-### Name:        script_3.1_cutoff_and_effective_resistance.R
+### Name:        script_3.2_cutoff_and_effective_resistance.R
 ### Description: First script for network comparison.
 ###              - CutOff edges at thresholds
 ###              - Compute effective resistance distance
