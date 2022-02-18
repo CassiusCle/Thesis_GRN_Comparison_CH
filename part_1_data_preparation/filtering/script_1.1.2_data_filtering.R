@@ -1,5 +1,5 @@
 ################################################################################
-### Name:        script_1.2_data_filtering.R
+### Name:        script_1.1.2_data_filtering.R
 ### Description: Perform data filtering steps
 ### Author:      Clemens Pieter Dick Hendrickx
 ################################################################################
