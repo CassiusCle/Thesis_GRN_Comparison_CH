@@ -3,6 +3,7 @@
 
 '''
     File name: network_inference_v1.0_hpc.py
+    Description: Python script that executes GRNBoost2 on high performance computing cluster
     Author: Clemens Pieter Dick Hendrickx
     Python Version: 3.9.5
 '''
