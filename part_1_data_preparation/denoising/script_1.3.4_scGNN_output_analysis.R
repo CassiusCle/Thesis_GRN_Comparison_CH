@@ -1,5 +1,5 @@
 ################################################################################
-### Name:        script_1.3.3_scGNN_output_analysis.R
+### Name:        script_1.3.4_scGNN_output_analysis.R
 ### Description: Analyses output of scGNN
 ### Author:      Clemens Pieter Dick Hendrickx
 ################################################################################
