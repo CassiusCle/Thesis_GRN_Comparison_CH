@@ -11,11 +11,11 @@ Scripts whose name ends in "hpc" are written to be run on the HPC cluster.
 R script that imports the raw data sources and merges them into the right format. The output is one table for the gene expression data and one for the metadata.
 
 #### script\_1.1.2\_data\_filtering.R
-R script that implements the data filtering steps described in Section \ref{sec:data}. The output is the filtered expression data set.
+R script that implements the data filtering steps described in Section 3. The output is the filtered expression data set.
 
 ### normalisation
 #### script\_1.2.1\_normalisation\_hpc.R
-R script that implements the scone workflow from \cite{cole2019performance} on the HPC cluster. This workflow implements a variety of normalisation configurations and scores these configurations using different metrics. This comparison is described in detail in Appendix \ref{app:intermediate_results:normalisation}. It outputs a data object containing both the scores from the comparison as the different normalised data sets.
+R script that implements the scone workflow from Cole et al. (2019) on the HPC cluster. This workflow implements a variety of normalisation configurations and scores these configurations using different metrics. This comparison is described in detail in Appendix C. It outputs a data object containing both the scores from the comparison as the different normalised data sets.
 
 #### script\_1.2.2\_run\_normalisation\_comparison\_hpc.sh
 Shell script used for running script 1.2.1 on the HPC cluster. It does not have any output itself.
@@ -34,7 +34,7 @@ Shell script that runs scGNN on the normalised (and prepared) data on the HPC cl
 R script that creates the relevant subset of the imputed data set by filtering out cell types based on the cell-type clustering of scGNN. The output is the imputed expression data set.
 
 #### script\_1.3.3\_scGNN\_output\_analysis.R
-R script that analyses the effects of the imputation step on the data. It outputs the results of several tests and statistics which are described in Appendix \ref{app:intermediate_results:denoising}.
+R script that analyses the effects of the imputation step on the data. It outputs the results of several tests and statistics which are described in Appendix D.
 
 ## part\_2\_network\_inference
 #### script\_2.1\_network\_inference\_hpc.py
@@ -52,7 +52,7 @@ The outputs are these weight matrices and the \texttt{.csv} files.
 R script that implements part of the network comparison. It implements the edge weight cutoff threshold and computes the effective resistance distance between all genes in the networks. It outputs the effective resistance distance matrices of both networks.
 
 #### script\_3.3\_create\_and\_compare\_affinity\_profiles.R
-R script that finishes the creation of the gene affinity profiles, implements the comparison of the profiles and reports the results. It outputs the results from the comparison and the boxplot presented in Section \ref{sec:results:NetworkComparison}.
+R script that finishes the creation of the gene affinity profiles, implements the comparison of the profiles and reports the results. It outputs the results from the comparison and the boxplot presented in Section 5.2.
 
 #### script\_3.4\_visualise\_connectivity\_differences.R
-R script that creates the visualisations of the connectivity differences for the neighbourhoods of the different candidate genes (see Appendix \ref{app:four_regions}) and of the overlapping genes reported in Section \ref{res:exploration_regions}.
+R script that creates the visualisations of the connectivity differences for the neighbourhoods of the different candidate genes (see Appendix E) and of the overlapping genes reported in Section 5.2.2.
