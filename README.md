@@ -5,8 +5,9 @@ The repository follows the same structure as this thesis, with folders for the d
 Scripts whose name ends in "hpc" are written to be run on the HPC cluster.
 
 ## part\_1\_data\_preparation
-\noindent\textit{filtering}\\
-\noindent\texttt{script\_1.1.1\_raw\_data\_processing.R}\\
+
+### filtering
+#### script\_1.1.1\_raw\_data\_processing.R
 R script that imports the raw data sources and merges them into the right format. The output is one table for the gene expression data and one for the metadata.\\
 
 \noindent\texttt{script\_1.1.2\_data\_filtering.R}\\
