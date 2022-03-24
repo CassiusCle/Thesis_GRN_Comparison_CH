@@ -45,8 +45,8 @@ Shell script used for running script 2.1 on the HPC cluster. It does not have an
 
 ## part\_3\_network\_comparison
 #### script\_3.1\_prep\_network\_comparison.R
-R script that prepares the networks outputted by script 2.1 for the network comparison step. It converts the edge lists that GRNBoost2 outputted to weight matrices and creates \texttt{.csv} files for visualising the networks in Cytoscape.
-The outputs are these weight matrices and the \texttt{.csv} files.
+R script that prepares the networks outputted by script 2.1 for the network comparison step. It converts the edge lists that GRNBoost2 outputted to weight matrices and creates .csv files for visualising the networks in Cytoscape.
+The outputs are these weight matrices and the .csv files.
 
 #### script\_3.2\_cutoff\_and\_effective\_resistance.R
 R script that implements part of the network comparison. It implements the edge weight cutoff threshold and computes the effective resistance distance between all genes in the networks. It outputs the effective resistance distance matrices of both networks.
