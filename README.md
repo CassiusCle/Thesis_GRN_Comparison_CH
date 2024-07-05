@@ -1,5 +1,5 @@
 # Thesis_GRN_Comparison_CH
-The public repository of the code used for the master's thesis in Econometrics and Management Science by Clemens Hendrickx. 
+The public repository of the code used for the master's thesis in Econometrics and Management Science by Clemens H. 
 The repository follows the same structure as this thesis, with folders for the different parts and steps of the research. 
 
 Scripts whose name ends in "hpc" are written to be run on the High Performance Computing (HPC) cluster.
